@@ -1,0 +1,193 @@
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Toby's HOSPITAL (SCARY OBBY)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Level 2",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(552.971924, -96.0143433, -585.259766, 0.0702496395, -8.64277396e-08, -0.997529447, -2.97642693e-08, 1, -8.87378988e-08, 0.997529447, 3.59245398e-08, 0.0702496395)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 3",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(696.241333, -93.4143295, -585.63446, -0.0236176997, -3.02581675e-08, -0.99972105, 1.6967725e-12, 1, -3.02666479e-08, 0.99972105, -7.1652495e-10, -0.0236176997)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 4",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(871.098328, 14.1472178, -706.500366, 1, 8.0063046e-08, -3.38382837e-12, -8.0063046e-08, 1, -8.96269992e-09, 3.38311085e-12, 8.96269992e-09, 1)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 5",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(836.146301, -31.1426926, -816.762451, -0.00176245207, -2.59603681e-08, -0.99999845, -4.93752999e-12, 1, -2.59604001e-08, 0.99999845, -4.0816437e-11, -0.00176245207)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 6",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(837.433716, -31.0019646, -721.705933, 0.0318041779, -7.14765775e-08, -0.999494135, -1.01525358e-10, 1, -7.15159842e-08, 0.999494135, 2.37598119e-09, 0.0318041779)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 7",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(927.084961, -123.801369, -811.350159, 0.997955203, 6.44301545e-09, -0.063917391, 3.18977548e-12, 1, 1.00852034e-07, 0.063917391, -1.00646012e-07, 0.997955203)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 8",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1086.73022, -123.701363, -910.691895, 0.00198297808, 5.7272743e-08, -0.999998033, -4.90551436e-12, 1, 5.7272846e-08, 0.999998033, -1.08665292e-10, 0.00198297808)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 9",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1227.37366, -121.901367, -911.2276, 0.00199330365, -3.48724996e-08, -0.999998033, -8.32518082e-11, 1, -3.4872734e-08, 0.999998033, 1.52763593e-10, 0.00199330365)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 10",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1485.08435, -102.201363, -919.268738, 0.0194139481, 1.8212166e-08, -0.99981153, 5.716302e-12, 1, 1.82157098e-08, 0.99981153, -3.59354074e-10, 0.0194139481)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 11",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1826.00452, -102.268745, -918.966248, -0.0209005009, 4.44794104e-08, -0.999781549, -6.89085988e-09, 1, 4.46331825e-08, 0.999781549, 7.82221043e-09, -0.0209005009)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 12",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2074.28931, -102.445923, -921.707458, -0.0297857113, -1.09985663e-07, -0.999556303, -5.86009907e-09, 1, -1.09859855e-07, 0.999556303, 2.58524468e-09, -0.0297857113)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 13",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2176.04565, -102.445915, -921.122864, -0.0469246432, 5.11042373e-08, -0.998898447, -3.67066875e-08, 1, 5.28849391e-08, 0.998898447, 3.91478601e-08, -0.0469246432)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 14",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2284.06055, -102.72229, -983.856262, 0.999928474, 8.55014323e-11, -0.0119593432, -1.85768436e-12, 1, 6.99401959e-09, 0.0119593432, -6.99349734e-09, 0.999928474)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 15",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2260.7439, -137.395966, -1196.21899, -0.0212381892, -4.63570089e-08, 0.999774456, 4.80023168e-08, 1, 4.73871786e-08, -0.999774456, 4.8997908e-08, -0.0212381892)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 16",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2171.44189, -122.740784, -1186.46631, 0.0504117794, 9.01221426e-08, 0.998728514, 1.6648789e-08, 1, -9.107724e-08, -0.998728514, 2.12189875e-08, 0.0504117794)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 17",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2060.27124, -122.230812, -1172.42212, -0.00192849082, -2.09016893e-09, 0.999998152, 3.23379268e-10, 1, 2.09079642e-09, -0.999998152, 3.27410737e-10, -0.00192849082)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 18",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1964.69482, -122.230812, -1172.58325, -0.000417489442, -3.79408371e-09, 0.99999994, 1.51771637e-10, 1, 3.79414722e-09, -0.99999994, 1.53355634e-10, -0.000417489442)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 19",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1646.62891, -289.821075, -1247.22913, 0.999831736, 1.69320313e-09, -0.0183443315, -2.1081999e-12, 1, 9.21862551e-08, 0.0183443315, -9.21707084e-08, 0.999831736)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 20",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1647.83289, -202.821014, -1248.99365, -0.998798728, -8.61356708e-10, 0.0490009636, -3.80720566e-10, 1, 9.81804238e-09, -0.0490009636, 9.78759207e-09, -0.998798728)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 21",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1453.75488, -202.914688, -1073.12549, 0.0102431029, 2.47464982e-08, 0.999947548, 4.00506606e-09, 1, -2.47888234e-08, -0.999947548, 4.25877023e-09, 0.0102431029)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 22",
+	Callback = function()
+      		print("button pressed")
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1358.39185, -202.439713, -1129.8429, 0.991401792, 5.14135579e-09, -0.130852968, -8.23878477e-09, 1, -2.31297008e-08, 0.130852968, 2.40088944e-08, 0.991401792)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Level 23",
+	Callback = function()
+      		print("button pressed")
+			  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1357.83057, -202.48967, -1372.61218, 0.99857831, -7.86710252e-09, -0.0533039533, 7.69305419e-09, 1, -3.4703922e-09, 0.0533039533, 3.05538839e-09, 0.99857831)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Return To Start",
+	Callback = function()
+      		print("button pressed")
+			  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1360.12024, -197.200043, -1446.64026, -0.892376006, -0.0327003673, 0.450106323, -7.97512012e-09, 0.997371376, 0.0724593326, -0.451292604, 0.0646609664, -0.890030324)
+  	end    
+})
